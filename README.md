@@ -4,7 +4,7 @@
 #### master
 `git config --global alias.com "! git checkout master && git pull origin master && git status"`
 #### main
-`git config --global alias.com "! git checkout master && git pull origin master && git status"`
+`git config --global alias.com "! git checkout main && git pull origin main && git status"`
 
 ---
 
