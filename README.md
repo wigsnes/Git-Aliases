@@ -1,8 +1,6 @@
 # Git Aliases
 
 ### git com; Checkout master/main, pull origin master/main and print status
-#### master
-`git config --global alias.com "! git checkout master && git pull origin master && git status"`
 #### main
 `git config --global alias.com "! git checkout main && git pull origin main && git status"`
 
@@ -33,5 +31,11 @@ git c
 git b "branchName"
 
 `git config --global alias.b "! git checkout -b $1"`
+
+---
+
+### Log oneline decorate all graph
+
+`git config --global alias.lg "log --oneline --decorate --all --graph"`
 
 ---
